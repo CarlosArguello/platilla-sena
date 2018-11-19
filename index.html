@@ -1,0 +1,101 @@
+<html>
+    <body>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+    
+            body{
+                margin-top: 20px;
+                width: 100%;
+                height: 100vh;
+                background: #ccc;
+            }
+
+            .contenedor{
+                max-width: 560px;
+                width: 100%;
+                border-radius: 5px;
+                margin: auto;
+            }
+            
+            .contenedor .header{
+                height: 300px;
+                overflow: hidden;
+                /*background: url(programador.jpg);*/
+                background: url(https://raw.githubusercontent.com/CarlosArguello/foto/master/programador.jpg);
+                background-size: cover;
+                background-position-x: 80px;
+                border-top-right-radius: 10px;
+                border-top-left-radius: 10px;
+            }
+            
+            .contenedor .header > div{
+                width: 180px;
+                height: 350px;
+                border-top-right-radius:60%;
+                border-bottom-right-radius:60%;
+                transform: translateY(-26px);
+                background: linear-gradient(
+                    #FFAB00,
+                    #FFAA00,
+                    #FF9100
+                );
+            }
+
+            .contenedor .header > div img{
+                width: 140px;
+                height: 140px;
+                transform: translate(18px,109px);
+            }
+
+            .contenedor .cuerpo{
+                height: 300px;
+                width: 100%;
+                background: #fff;
+                border-bottom-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                padding: 20px;
+                font-family: 'Open Sans', sans-serif;
+
+            }
+
+            .contenedor .cuerpo a{
+                margin-top: 30px;
+                display: flex;
+                justify-content: center;
+                width: 100px;
+                height: 45px;
+                padding: 10px;
+                border-radius: 4px;
+                text-decoration: none;
+                color: white;
+                /*background: #FF9100;*/
+                background: radial-gradient(
+                    #FFAB00,
+                    #FFAA00,
+                    #FF9100
+                );
+            }
+        </style>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <div class="contenedor">
+            
+            <div class="header">
+                <div>
+                    <!-- <img src="sena.png" alt=""> -->
+                    <img src="https://raw.githubusercontent.com/CarlosArguello/foto/master/sena.png">
+                </div>
+            </div>
+            <div class="cuerpo">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores odit, dolore quaerat non quia sapiente. Ipsum quaerat molestiae laudantium totam ipsa. Exercitationem, modi inventore! Doloribus ex architecto voluptates quo, harum maiores pariatur eveniet, expedita exercitationem veniam, aut ab et odio?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius suscipit odio placeat delectus?</p>
+                <!-- <a href="pag.html" target="_blank" download="sena.png">Descargar...</a> -->
+                <a href="soportes/pedidos/2018/1095951604_Miguel Angel Castro Escamilla/prueba.pdf" target="_blank">Visualizar</a>
+            </div>
+        </div>
+    </body>
+</html>
